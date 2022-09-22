@@ -1,0 +1,112 @@
+vpnc-scripts (0.1~git20210402-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Luca Boccassi ]
+  * Update upstream source from tag 'upstream/0.1_git20210402'
+  * Bump Standards-Version to 4.5.1, no changes
+  * Bump debhelper-compat to 13
+  * Bump watch file version to 4
+
+ -- Luca Boccassi <bluca@debian.org>  Wed, 18 Aug 2021 17:47:24 +0100
+
+vpnc-scripts (0.1~git20200930-1) unstable; urgency=medium
+
+  * Update upstream source from tag 'upstream/0.1_git20200930'
+
+ -- Luca Boccassi <bluca@debian.org>  Tue, 06 Oct 2020 15:29:21 +0100
+
+vpnc-scripts (0.1~git20200226-1) unstable; urgency=medium
+
+  * Update upstream source from tag 'upstream/0.1_git20200226'
+    (Closes: #955016)
+  * Switch to debhelper-compat 12
+  * Set Rules-Requires-Root: no
+  * Switch to https for URLs
+  * Bump Standards-Version to 4.5.0
+  * Add myself to Uploaders
+  * Set vpnc-scripts to Multi-Arch: foreign (Closes: #955554)
+
+ -- Luca Boccassi <bluca@debian.org>  Thu, 02 Apr 2020 15:27:40 +0100
+
+vpnc-scripts (0.1~git20190117-1) unstable; urgency=medium
+
+  * New upstream version 0.1~git20190117
+    - Add attempt-reconnect invocation (Closes: #923151)
+  * d/control: Bump Standards-Version to 4.3.0 (no changes needed)
+
+ -- Mike Miller <mtmiller@debian.org>  Tue, 26 Feb 2019 10:14:42 -0800
+
+vpnc-scripts (0.1~git20180227-1) unstable; urgency=medium
+
+  * New upstream version 0.1~git20180227
+  * d/control: Bump Standards-Version to 4.1.4, no changes needed
+
+ -- Mike Miller <mtmiller@debian.org>  Thu, 12 Apr 2018 13:07:02 -0700
+
+vpnc-scripts (0.1~git20171005-1) unstable; urgency=medium
+
+  * New upstream version 0.1~git20171005
+    - Include support for systemd-resolved (Closes: #891177)
+  * Bump debhelper compatibility level to 11
+  * d/copyright: Bump copyright to 2018 for debian/*
+  * d/control:
+    - Update Vcs-* fields for migration to salsa.d.o
+    - Bump Standards-Version to 4.1.3, no changes needed
+
+ -- Mike Miller <mtmiller@debian.org>  Fri, 23 Feb 2018 12:21:52 -0800
+
+vpnc-scripts (0.1~git20160829-1) unstable; urgency=medium
+
+  * New upstream version 0.1~git20160829
+    - Add domain names to resolv.conf "search" field (Closes: #806733)
+  * Bump debhelper compatibility level to 10
+  * Run wrap-and-sort
+  * d/control: Use https URIs for Vcs-* fields
+  * d/copyright: Bump copyright to 2016 for debian/*
+  * d/copyright: Update Format using "cme fix dpkg-copyright"
+  * Bump Standards-Version to 3.9.8, no changes needed
+
+ -- Mike Miller <mtmiller@debian.org>  Tue, 29 Nov 2016 11:41:55 -0800
+
+vpnc-scripts (0.1~git20150318-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Upgrade iproute2 from Recommends to Depends, preferred alternative
+    over net-tools. Thanks to Andreas Henriksson for the patch. (Closes:
+    #792487)
+  * Update to debhelper 9.
+  * Update debian/copyright for 2015. Combine paragraphs with same license.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
+ -- Mike Miller <mtmiller@debian.org>  Sun, 30 Aug 2015 15:35:53 -0400
+
+vpnc-scripts (0.1~git20140806-1) unstable; urgency=medium
+
+  [ Mike Miller ]
+  * New upstream version.
+  * Canonicalize Vcs-* control fields.
+  * Remove obsolete DM-Upload-Allowed control field.
+  * Use my @debian.org address.
+  * Bump Standards-Version to 3.9.5. No changes needed.
+
+  [ Andreas Henriksson ]
+  * Recommend iproute2 instead of transitional package iproute
+
+ -- Mike Miller <mtmiller@debian.org>  Thu, 11 Sep 2014 22:28:56 -0400
+
+vpnc-scripts (0.1~git20120602-2) unstable; urgency=low
+
+  * Add Vcs-* fields for the collab-maint git repository.
+  * Move iproute from Depends to Recommends, vpnc-script can work
+    around it if not available.
+
+ -- Mike Miller <mtmiller@ieee.org>  Wed, 06 Jun 2012 06:58:46 -0400
+
+vpnc-scripts (0.1~git20120602-1) unstable; urgency=low
+
+  * Initial release. (Closes: #675131)
+
+ -- Mike Miller <mtmiller@ieee.org>  Sat, 02 Jun 2012 08:33:04 -0400
